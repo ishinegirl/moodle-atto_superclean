@@ -1,0 +1,9 @@
+{
+    "moodle-atto_superclean-button": {
+        "requires": [
+            "io",
+            "json-parse",
+            "moodle-editor_atto-plugin"
+        ]
+    }
+}

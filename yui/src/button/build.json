@@ -1,0 +1,10 @@
+{
+  "name": "moodle-atto_superclean-button",
+  "builds": {
+    "moodle-atto_superclean-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}
