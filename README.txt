@@ -6,6 +6,7 @@ Google Chrome adds a whole lot of junk inside span tags when you do a copy and p
 The source code view quickly becomes unusable. Its more a Chrome problem than a Moodle one, they say. 
 
 Super clean removes ALL span tags from the html editor. Leaving just the text they surrounded. 
+Then it removes ALL style attributes from the whole text area.
 Its like clearing a forest with a bomb. So be careful.
 
 QUICK INSTALL

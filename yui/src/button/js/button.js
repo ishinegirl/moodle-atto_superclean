@@ -51,7 +51,8 @@ Y.namespace('M.' + COMPONENTNAME).Button = Y.Base.create('button', Y.M.editor_at
      */
     _bustspans: function() {
         var startValue = this.editor.get('innerHTML');
-        var newValue = startValue.replace(/<\/?span[^>]*>/g,"");
+        newValue = startValue.replace(/<\/?span[^>]*>/g,"");
+        var newValue = newValue.replace(/style="[^\"]*"/g, '');
         this.editor.set('innerHTML', newValue);
     }
 });
